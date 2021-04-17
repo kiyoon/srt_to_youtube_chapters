@@ -39,6 +39,7 @@ class SrtToYTChapters():
         # The geometry of the box which will be displayed
         # on the screen
         self.root.geometry("420x500")
+        self.root.minsize(300,300)
         self.root.title("SRT to YouTube Chapters")
         #self.root.resizable(False, False)
         self.btn_open_srt = tk.Button(self.root, text="Open SRT", command=self._on_click_open_srt)
